@@ -2,49 +2,65 @@
     text-decoration:line-through;
 }
 body{
-    background: linear-gradient(to right, rgba(251, 244, 119,0.6), rgba(12, 20, 50,1));
+    /* background: linear-gradient(to right, rgba(251, 244, 119,0.6), rgba(12, 20, 50,1)); */
+    /* background-color: #c96567;
     font-family: 'Yatra One', cursive;
-    font-size: 30px;
+    font-size: 30px; */
+    background: linear-gradient(45deg, #97aabd 12%, transparent 0, transparent 88%, #97aabd 0),
+    linear-gradient(135deg, transparent 37%, #9e5a63 0, #314455 63%, transparent 0),
+    linear-gradient(45deg, transparent 20%, #9e5a63 0, #9e5a63 63%, transparent 0) #753;
+    background-size: 30px 30px;
+        
 }
 
 li{
   text-align: center;
   margin-top: 10px;
   list-style-type: none;
+  color:  rgb(255, 255, 255);
 }
 h1{
-    font-family: 'Ubuntu', sans-serif;
-    /* font-weight: 200; */
+    font-family: "Lobster Two";
+	/* font-size: 24px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.4px; */
+    font-weight: 200;
     font-size: 50px;
     letter-spacing: 5px;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
 }
 #first{
     font-family: 'Ubuntu', sans-serif;
+    color: rgb(255, 255, 255);
 }
-
-
 .container{
-    border: 1.5px solid #96858f;
+    border: 1.5px solid #97aabd;
    margin: 4px;
    border-radius: 10px;
-   /* background-color:#d5d5d5; */
-   background:  linear-gradient(to left, rgba(251, 244, 119,0.6), rgba(12, 20, 50,0.9));
+   background-color:#314455;
+   /* background:  linear-gradient(to left, rgba(251, 244, 119,0.6), rgba(12, 20, 50,0.9)); */
+
+   padding-left: 5px;
+   padding-right: 5px;
 }
 .backcont{    
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    border: 1.5px solid #22191e;
+    border: 1.5px solid #97aabd;
     border-radius: 20px;
-    background: transparent;
+    background-color: #9e5a63;
     /* background:  linear-gradient(to right, rgb(251, 244, 119), rgb(12, 20, 50)); */
-    width: 15em;
+    /* width: 15em; */
+   
 }
 
 input{
-    border: 1px solid black;
+    border: 2px solid #644e5b;
+    border-radius: 12px;
     height: 30px;
     width: 200px;
     font-family: 'Yatra One', cursive;
@@ -66,24 +82,20 @@ p ,h1{
 }
 ul{
     padding-left: 0%;
+    font-family: 'Yatra One', cursive;
 }
 button{
-    background-color: rgb(12, 20, 50);
-    color: rgb(251, 244, 119);
-    border-radius: 6px;
-    border-top: rgb(251, 244, 119) 1.5px solid;
-    border-left: rgb(251, 244, 119) 1.5px solid;
-    border-bottom: rgb(12, 20, 50) 1.5px solid;
-    border-right: rgb(12, 20, 50) 1.5px solid;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #644e5b;
+    color: #97aabd;
+    border-radius: 10px;
+    border: #9e5a63 2px solid;
     padding: 10px 12px;
 }
 button:hover{
     color: rgb(12, 20, 50);
     background-color: rgb(240, 236, 171);
     border-radius: 6px;
-    border-bottom: rgb(235, 231, 170) 1.5px solid;
-    border-right: rgb(251, 244, 119) 1.5px solid;
-    border-top: rgb(12, 20, 50) 1.5px solid;
-    border-left: rgb(12, 20, 50) 1.5px solid;
+    border: rgb(12, 20, 50) 1.5px solid;
 
 }
